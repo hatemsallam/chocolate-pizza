@@ -1,46 +1,47 @@
 * {
     box-sizing: border-box;
 }
-
-body {
+/* body{
     text-align: center;
-}
-
-
+} */
 header {
     
-    margin-bottom: 150px;
-    position: relative;
-    display: block;
+    margin-bottom: 80px;
     margin-right: 15%;
-    margin-left: 15%;
+    margin-left: 2.5%;
     
 }
 
 #headerImg{
-position: absolute;
-right: 5%;
-bottom: 5%;
-/* top:20%; */
-}
-
-#logo{
-    position: absolute;
-    left: 15%;
-    bottom: 5%;
-}
-
-
-#title{
 position: relative;
-margin-top: 200px;
+right: -35%;
+padding-top: 3%;
 }
 
+hr {
+margin-left: 15%;
+margin-right: 15%;
+height: 15px;
+background-color: rgb(173, 169, 169);
+}
+
+
+#headerlogo{
+    display: inline-flex;
+    float: left;
+    margin-left: 16%;
+    
+}
+
+
+#div1{
+ padding-top: 7%;
+ padding-right: 3%;
+}
 
 #printer{
-    position: absolute;
-    right: 210px;
-    top: 50px;
+    position: relative;
+    left: 79%;
 }
 
 .para{
@@ -54,6 +55,11 @@ margin-top: 200px;
 #title{
     text-align: start;
     margin-left: 16%;
+    
+}
+
+#content{
+    text-align: center;
 }
 
 #checkForm{
@@ -97,28 +103,34 @@ footer {
 
 #vanessa{
     margin-bottom: 100px;
+    display: inline-flex;
 }
 
-#vanessa img{
-position: absolute;
-left: 5%;
+#div3{
+margin-top: 2%;
+padding-right: 1.5%;
+
 }
 
-#text{
-    position: absolute;
-    top:10%;
-    left: 15%;
+#vPara{
+     font-weight: bold;
+     font-size: 110%;
 }
-
 #vanessa button{
     position:absolute;
-    right: 15%;
+    right: 18%;
     background-color: chocolate;
     color: whitesmoke;
     height: 30px;
+    margin-top: 3%;
 }
 
-#copyright{
-margin-top: 100px;
+#copyRight{
+text-align: center;
+position: relative;
+left: -13%;
 }
+
+
+
 
